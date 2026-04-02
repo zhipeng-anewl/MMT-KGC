@@ -1,16 +1,6 @@
-# Large data and model files (>25MB GitHub limit)
-# Use Git LFS or external storage for these files
-*.pth
-*.pt
-*.bin
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.npz
-*.npy
-
-# Large dataset files
+# Large archive/dataset files (not tracked by Git LFS)
+# Note: binary model files (*.pth, *.pt, *.bin, *.h5, *.pkl, *.npz) are
+# tracked via Git LFS — see .gitattributes — so they are NOT listed here.
 *.zip
 *.tar
 *.tar.gz
@@ -50,7 +40,6 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # IDE
 .idea/
