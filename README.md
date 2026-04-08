@@ -28,6 +28,7 @@ pip install "torch>=2.0.0" "transformers>=4.30.0" "peft>=0.5.0" "numpy>=1.21.0" 
 
 - Unified data root: data/
 - Unified multimodal features: data/embeddings/visual.pth, textual.pth, numeric.pth
+- You need to decompress the multimodal data and knowledge graph contained in the .zip file and place them under this path.
 - Triple parsing unified to your actual processed format
 
 ## Base LLM
