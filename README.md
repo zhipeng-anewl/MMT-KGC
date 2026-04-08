@@ -1,7 +1,8 @@
-# MMT-KGC
+# Multimodal Traditional Chinese Medicine Knowledge Graph Completion Based on Large Language Models
+Knowledge graphs in the domain of Traditional Chinese Medicine (TCM) possess immense application value but often face challenges of severe data incompleteness and complex relationship modeling. Existing methods fail to fully utilize multimodal information and often ignore the highly skewed relation distribution characteristics in the real world. To this end, this paper proposes a large language model-driven multimodal knowledge graph completion framework, termed MMT-KGC. We first construct TCM-MMKG, a comprehensive multimodal TCM knowledge graph dataset that integrates image, text, and numerical attributes. Subsequently, the MMT-KGC framework introduces a relation-guided multimodal fusion mechanism that can dynamically adjust the weights of various modalities based on structural relations, thereby achieving fine-grained information integration. Furthermore, a multimodal prefix adapter is designed to accurately inject structural knowledge and multimodal semantics into the large language model to enhance its reasoning capabilities, combined with a two-stage retrieve-and-rerank strategy to balance prediction efficiency and accuracy. Extensive experiments demonstrate that the MMT-KGC significantly outperforms existing baseline models on the TCM-MMKG dataset and exhibits remarkable generalization ability across multiple public benchmarks.
 
-MMT-KGC is a multimodal TCM knowledge graph completion project.
 
+# MMT-KGC is a multimodal TCM knowledge graph completion project.
 This repository supports a full training pipeline:
 1. Train structural KGE embeddings
 2. Train a multimodal KGE reranker (coarse retriever)
